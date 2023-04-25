@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTop-nav");
+        if (x.className === "nav-bar") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav-bar";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar" id="myTop-nav">
+        <ul>
+          <li class="name"><a href="#">Tanu Singh</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact me</a></li>
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+              >&#9776;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <h3 class="hello">Hello, folks!!</h3>
+      <h3 class="I_am">I am</h3>
+      <h1>Tanu Singh !!</h1>
+    </header>
+    <a name="about" href="#"></a>
+
+    <div class="container">
+      <div class="about_me">
+        <h2>About me</h2>
+      </div>
+      <div class="about_content">
+        <p>
+          I am a 3<sup>rd</sup> year undergraduate and currently pursuing Bachelor of Technology
+          in Computer Science Engineering from ABES Engineering College
+          Ghaziabad, India. I am deeply interested in Data Structures and Algorithms and Web
+          Development. I am a competitive programmer and Front-end developer. 
+          programming, I have passionate to learn new things.
+        </p>
+      </div>
+    </div>
+    <a name="skills" href="#"></a>
+    <div class="skills_container">
+      <div class="skills">
+        <h2>Skills</h2>
+      </div>
+      <div class="skills_content">
+        <p>
+          I'm a technology enthusiast, problem solver. I code in C++ during
+          competitive programming contest. I have decent skills in front end.
+          I know HTML, CSS, javascript.
+          
+        </p>
+        <div class="level_skills"></div>
+      </div>
+    </div>
+
+    <a href="#" name="contact"></a>
+    <div class="contact_container">
+      <div class="contact_me">
+        <h2>Contact me</h2>
+      </div>
+      <div class="contact_content">
+        <p>
+          Either way, if you want to say just hello or have an idea and want to
+          collaborate and build some cool stuff, feel free to ping me up.
+        </p>
+        <div class="images">
+          <a
+            href="https://www.linkedin.com/in/tanu-singh-3a5345203/"
+            target="_blank"
+          >
+            <img class="icons" src="linkedin-logo1.svg" />
+          </a>
+          <a href="https://github.com/TanuSingh17" target="_blank"
+            ><img class="icons" src="github-logo.svg"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
